@@ -14,7 +14,7 @@
 }
 
 .section-1{
-    width:90%;
+    width:95%;
     margin:auto;
     display:flex;
     justify-content: space-between;
@@ -92,9 +92,9 @@
 .bannar{
     width:100%;
     height:220px;
-    background:linear-gradient(to right,#013223 35%,
-    #006747 30%,
-    #013224 35%);
+    background:linear-gradient(to right,#013223 0%,
+    #006747 50%,
+    #013224 100%);
     text-align:center;
     color:white;
     padding:20px 0;
@@ -117,36 +117,56 @@
 /* card section */
 
 .service{
-   
+    display:grid;
+    grid-template-columns: 3fr 1fr;
     margin:auto;
-    width:90%;
+    width:95%;
+    padding:20px 0;
 }
 
 .call{
     width:100%;
     display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
   gap: 20px; /* space between cards */
-  padding: 20px;
+  padding: 25px;
 }
 
 .card{
-    width:95%;
+    width:98%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     border-radius:10px;
-    padding:28px;
+    padding:22px;
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
 }
-.card-img{
+
+.card2{
+   width:98%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-radius:10px;
+    padding:22px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; 
+}
+.card-img,.card2-img{
     background-color: #EFCDCB;
     padding:15px;
     border-radius:15px;
     display:block;
     width:60px;
 }
-.card-img img{
+.card2-img{
+    background-color: #DFEFFF;
+    padding:15px;
+    border-radius:15px;
+    display:block;
+    width:60px;
+}
+
+.card-img img,.card2-img img{
     width:32px;
     height:32px;
     
@@ -159,12 +179,12 @@
 .card-header .heart{
     font-size:22px;
 }
-.card h1{
+.card h1,.card2 h1{
     font-size:20px;
     font-weight: 600;
     margin-top:10px;
 }
-.card p{
+.card p,.card2 p{
     font-size:16px;
     color:rgb(109, 103, 103);
     font-weight: 600;
@@ -198,6 +218,10 @@
     font-weight:600;
     font-size:16px;
     border-radius: 10px;
+    background-color: #ffffff;
+}
+.btn-section button:hover{
+   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 .btn-section .btn2{
     background-color:#00A63E;
@@ -205,5 +229,13 @@
 }
 
 .history{
-    border:3px solid black;
+    width:100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-radius:10px;
+
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #ffffff;
+    /* padding:22px; */
+    margin-top:22px;
 }
