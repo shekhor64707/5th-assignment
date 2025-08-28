@@ -238,4 +238,29 @@
     background-color: #ffffff;
     /* padding:22px; */
     margin-top:24px;
+    padding:20px 12px;
+}
+
+.history-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.history-header p{
+    font-size:18px;
+}
+.history span{
+    background-color: #00A63E;
+    color:#ffffff;
+    padding:9px 22px;
+    border-radius:25px;
+    font-size:18px;
+    font-weight:600;
+    display:inline-block;
+}
+.jamela2{
+    display:flex;
+    gap:4px;
+    align-items:center;
 }
