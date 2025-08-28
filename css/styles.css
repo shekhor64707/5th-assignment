@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.hind-madhurai {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.b-color{
+     background-color: #f5fff6;
+}
+
+.section-1{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    padding:24px 0;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    width:195px;
+}
+
+.icon img{
+    width:50px;
+    height:50px;
+}
+.icon h1{
+    color:#006747;
+    font-weight:900;
+    font-size:30px;
+    margin-left:10px;
+}
+
+.star{
+    display:flex;
+    align-items:center;
+    column-gap: 20px;
+}
+.love{
+    display:flex;
+    background-color: #ECFFF0;
+    padding:14px 32px;
+    border-radius:25px;
+    align-items: center;
+}
+.love span , .coin span , .copy span{
+    font-weight:bold;
+    font-size:20px;
+}
+.love img{
+    width:30px;
+    height:30px;
+    margin-left:10px;
+}
+
+.coin{
+    display:flex;
+    background-color: #ECFFF0;
+    padding:14px 24px;
+    border-radius:25px;
+    align-items: center;
+}
+.coin img{
+    width:24px;
+    height:24px;
+    margin-left: 10px;
+}
+.copy{
+    display:flex;
+    align-items:center;
+    background-color: #00A63E;
+    color:#ffffff;
+    padding:11px 22px;
+    border-radius:25px;
+}
+.copy p{
+    margin-left: 10px;
+}
+.copy p{
+    font-size:18px;
+    font-weight: 600;
+}
+
+/* bannar section */
+.bannar{
+    width:100%;
+    height:220px;
+    background:linear-gradient(to right,#013223 35%,
+    #006747 30%,
+    #013224 35%);
+    text-align:center;
+    color:white;
+    padding:20px 0;
+}
+.bannar img{
+    width:92px;
+    height:92px;
+    margin:auto;
+}
+
+.bannar h1{
+    font-size:30px;
+    font-weight: 600;
+    margin-top:11px;
+}
+.bannar p{
+    margin-top:10px;
+}
+
+/* card section */
+
+.service{
+   
+    margin:auto;
+    width:90%;
+}
+
+.call{
+    width:100%;
+    display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+  gap: 20px; /* space between cards */
+  padding: 20px;
+}
+
+.card{
+    width:95%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-radius:10px;
+    padding:28px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.card-img{
+    background-color: #EFCDCB;
+    padding:15px;
+    border-radius:15px;
+    display:block;
+    width:60px;
+}
+.card-img img{
+    width:32px;
+    height:32px;
+    
+}
+.card-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-header .heart{
+    font-size:22px;
+}
+.card h1{
+    font-size:20px;
+    font-weight: 600;
+    margin-top:10px;
+}
+.card p{
+    font-size:16px;
+    color:rgb(109, 103, 103);
+    font-weight: 600;
+}
+.card-jamela{
+    margin-top:10px;
+}
+
+.card-jamela span{
+    font-size:25px;
+    font-weight:900;
+
+}
+.card-jamela p{
+    width:10%;
+    background-color: #f2f2f2;
+    border-radius:15px;
+    padding: 0 25px;
+}
+
+.btn-section{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:20px;
+}
+
+.btn-section button{
+    width:49%;
+    color:rgb(109, 103, 103);
+    font-weight:600;
+    font-size:16px;
+    border-radius: 10px;
+}
+.btn-section .btn2{
+    background-color:#00A63E;
+    color:#f2eeee;
+}
+
+.history{
+    border:3px solid black;
+}
