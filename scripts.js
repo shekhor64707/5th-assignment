@@ -36,14 +36,27 @@ for(let btn2 of btn2All){
 
 const copyBtns=document.querySelectorAll(".btn1");
 var copy=document.getElementById("copyNumber");
-var copyNumber=parseInt(copy.innerText);
-console.log(copyNumber); 
+ 
 var count2=0;
  
 for(let copyBtn of copyBtns){
     copyBtn.addEventListener("click",function(){
        count2+=1
        copy.innerText=count2;
+    //    jamela
+        const card = button.closest(".card, .card2");
+        
+        // Get the text inside the span in .card-jamela
+        const number = card.querySelector(".card-jamela span").textContent;
+
+        // Copy the text to clipboard
+        navigator.clipboard.writeText(number).then(() => {
+            // Optional: Alert or update UI after copy
+            alert(`Copied: ${number}`);
+        }).catch(err => {
+            console.error("Failed to copy text: ", err);
+        });
+    // jamela
     });
 }
 
