@@ -264,3 +264,77 @@
     gap:4px;
     align-items:center;
 }
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .section-1 {
+    flex-direction: column;   
+    text-align: center;
+    gap: 10px;                
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    gap: 5px;
+    margin-left:90px;
+  }
+
+  .icon img {
+    width: 60px;           
+  }
+
+  .icon h1 {
+    font-size: 1rem;          
+  }
+
+  .star {
+    display: flex;
+    justify-content: center;  
+    gap: 15px;                
+  }
+
+  .star img {
+    width: 20px;              
+    height: auto;
+  }
+  
+    .bannar {
+    padding: 10px 20px;       
+    text-align: center;
+  }
+
+  .bannar img {
+    max-width: 70px;
+    max-height: 70px;         
+    margin-bottom: 12px;
+  }
+
+  .bannar h1 {
+    font-size: 1.6rem;       
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  .bannar p {
+    font-size: 1rem;          
+    line-height: 1.5;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+.call {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 15px;
+  padding: 15px;
+}
+
+.service{
+    display:block;
+}
+}
